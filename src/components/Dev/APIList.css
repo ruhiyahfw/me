@@ -1,0 +1,132 @@
+.apilist, .apiitem{
+    padding-top: 10vh;
+    min-height: 100vh;
+}
+
+.box{
+    background-color: #e7f9d1;
+    border: 5px solid #cacaca;
+    margin:10px;
+    padding:20px;
+  }
+  
+  .jobKet, .gridTwo{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    overflow: hidden;
+    padding: 5px 0 10px;
+    transition: all .2s ease-in-out;
+  }
+  
+  .jobKet:hover{
+    cursor: pointer;
+    background-color: #f8da6a;
+    transform: scale(1.01);
+  }
+
+  h2{
+      margin: 10px 0 10px ;
+      text-align: center;
+      color: #f8da6a;
+      background-color: #466168;
+      padding: 10px 30px;
+      border-radius: 10px;
+      width:fit-content;
+  }
+  
+  .title{
+    color: #466168;
+    font-weight: bold;
+  }
+  
+  .leftSide{
+    text-align: left;
+  }
+  
+  .rightSide{
+    text-align: right;
+  }
+  
+  .job p{
+    color: #ababab;
+    font-weight: 500;
+    margin-top:5px;
+  }
+  
+  .type{
+    color:green;
+  }
+  
+  .photoPlaceholder{
+    min-height: 70px;
+    background-color: #cacaca;
+  }
+  
+  .footer{
+    text-align: left;
+  }
+  
+  .aboveLogo{
+    background-color: #f8da6a;
+    padding: 10px 20px 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .applyInfo{
+    background-color: #7d9ea7;
+    padding: 10px 20px 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .location-up{
+      background-color: #f8da6a;
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin-right: 5px;
+  }
+
+  .time-up{
+    background-color: #7d9ea7;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.desc p{
+    line-height: 1.6;
+    margin: 5px;
+}
+
+.desc ul{
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    list-style-position: inside;
+    
+}
+
+.company{
+    font-weight: bold;
+}
+
+.smallpad{
+    padding: 0;
+}
+
+.footer{
+    background-color: #466168;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width:fit-content;
+    transition: all .5s ease-in-out;
+}
+
+.applyInfo a, .footer a{
+    text-decoration: none;
+    color: #f8da6a;
+}
+
+a:hover{
+    font-weight: bold;
+}

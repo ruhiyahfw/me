@@ -1,0 +1,151 @@
+.signup, .login{
+    padding-top: 20vh;
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, #f7ec9c, #e9dc88, #dbcc74, #cdbc61, #bfac4d);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+	box-shadow: 5px 10px 30px #000;
+    margin:auto;
+    background-color: #e7f9d1;
+  }
+  
+  .formContainer h1{
+    text-align: center;
+  }
+  
+  .formContainer .input {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #314549;
+    background: none;
+    transition: all .2s ease-in-out;
+  }
+
+  .formContainer .input:hover{
+    background-color: #f0dd76;
+    transform: scale(1.01);
+  }
+
+  .formContainer .input:focus{
+    background-color: #f0dd76;
+    outline: none;
+    border-bottom: 5px solid #314549;
+  }
+  
+  .formContainer button {
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    background-color: #507077;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .formContainer button:hover {
+    cursor: pointer;
+    background-color: #314549;
+  }
+  
+  .formContainer span{
+    color: red;
+    font-size: small;
+  }
+  
+  .centerItems{
+    border-radius: 10px;
+	box-shadow: 5px 10px 30px #000;
+    background-color: #b3bc71;
+    margin-top: 20px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin:20px auto;
+    transition: all .2s ease-in-out;
+  }
+
+  .centerItems:hover{
+    background-color: #e7f9d1;
+  }
+  
+  .selectSpan{
+    color: #507077;
+  }
+  
+  .selectSpan:hover{
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+  /* info btn */
+  .info-btn{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color:#507077;
+	color:#f0dd76;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    font-size: 30px;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .info-btn:hover{
+      cursor: pointer;
+  }
+
+  .info-show{
+    position:fixed;
+	width: 100vh;
+	bottom:20px;
+	right:120px;
+	background-color:white;
+	border-radius:5px;
+    margin: 0;
+    padding: 10px;
+    font-size: small;
+    z-index: 999;
+  }
+
+  .info-show ul{
+      padding-left: 20px;
+  }
+
+  .info-hide{
+      display: none;
+  }
+
+  .twogrid{
+      display: grid;
+      grid-template-columns: 20vh auto;
+  }
+
+  .twogrid div{
+      margin: 5px;
+      border: 2px solid #e9dc88;
+      border-radius: 5px;
+      padding: 10px;
+  }
+
+  .info-show button{
+      margin: 3px;
+      padding: 5px 10px;
+      font-size: x-small;
+  }

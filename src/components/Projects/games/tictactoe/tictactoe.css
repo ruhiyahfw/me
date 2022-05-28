@@ -1,0 +1,56 @@
+#tic-tac-toe{
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.square{
+    background-color: white;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: larger;
+    aspect-ratio: 1;
+    padding: auto;
+    max-width: 100px;
+}
+
+.square:focus{
+    outline: none;
+}
+
+.playboard{
+    margin: 10vh auto;
+    width: 800px;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1px;
+}
+
+.temp{
+    border: 1px solid yellow; 
+}
+
+.restart{
+    border-radius: 10px;
+    border: 1px solid #C996CC;
+    background-color: transparent;
+    color: #C996CC;
+    font-size: large;
+    padding:10px;
+}
+
+.restart:hover{
+    background-color: #C996CC;
+    color: white;
+}
+
+.playInfo{
+    padding-top: 50%;
+}
